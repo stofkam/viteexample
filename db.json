@@ -1,0 +1,42 @@
+{
+  "posts": [
+    {
+      "id": "1",
+      "title": "Первый пост",
+      "views": 100
+    },
+    {
+      "id": "2",
+      "title": "Второй пост",
+      "views": 250
+    }
+  ],
+  "comments": [
+    {
+      "id": "1",
+      "text": "Отличная статья!",
+      "postId": "1"
+    }
+  ],
+  "users": [
+    {
+      "id": "1",
+      "name": "John Doe",
+      "role": "admin",
+      "postId": "1"
+    }
+  ],
+  "mockTodos": [
+    {
+      "id": "2",
+      "text": "Написать Todo List",
+      "complited": false
+    },
+    {
+      "text": "read book",
+      "complited": false,
+      "id": "c9Pjg_w6KFA"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}

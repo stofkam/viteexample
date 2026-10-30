@@ -1,0 +1,31 @@
+.btn {
+  padding: 10px 20px;
+  border-radius: 5px;
+  background-color: green;
+  color: white;
+}
+.btndef {
+  padding: 10px 20px;
+  border-radius: 5px;
+
+  color: white;
+}
+
+.error {
+  background-color: red;
+}
+.primary {
+  background-color: blue;
+}
+.danger {
+  background-color: red;
+}
+.disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+  background-color: #ccc;
+}
+.animatePulse {
+  transform: scale(1.1) rotate(5deg);
+  transition: transform 0.3s ease-in-out;
+}
